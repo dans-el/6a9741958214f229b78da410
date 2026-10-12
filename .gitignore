@@ -1,0 +1,12 @@
+node_modules/
+.pnpm-store/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+vocabulary/*.sqlite
+/private/
+/tasks/

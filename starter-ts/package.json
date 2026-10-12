@@ -1,0 +1,20 @@
+{
+  "name": "viva-extraction-interview-starter",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.13.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --import tsx src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

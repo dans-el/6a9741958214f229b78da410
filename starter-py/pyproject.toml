@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interview-measurements-starter"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+gemini = ["google-genai>=1", "python-dotenv>=1"]
+
+[tool.setuptools]
+py-modules = ["main"]
